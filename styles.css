@@ -170,3 +170,163 @@ p{
     text-align: center;
     
  }
+
+ .card{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-image:url(./img/fondo.jpg);
+    border-radius: 10px;
+ }
+.card-img{
+    width: 250px;
+    border-radius: 10px;
+}
+
+.cartas-contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 50px;
+}
+
+.cartas-top{
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#cartas{
+    display: flex;
+    margin: 0 auto ;
+    width: 1300px;
+    height: 800px;
+    background-color: burlywood;
+
+}
+
+.container.card{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.card h2{
+    width: 100%;
+
+}
+
+.card p{
+    width: 70%;
+
+}
+
+.cartas-top p{
+    display: block;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
+    text-decoration: none;
+    list-style: none;
+}
+#cartas h2{
+    font-size: 2rem;
+    justify-content: center;
+}
+
+#contact-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    width: 100%;
+    padding: 2rem 2rem;
+    gap: 1rem;
+}
+
+#contact-us h2{
+    color: blanchedalmond;
+    font-size: 2rem;
+}
+
+.date-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    gap: 2rem;
+}
+.nosotros-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    justify-content: start;
+    border-radius: 2px;
+    color: blanchedalmond;
+}
+
+.ubi-img{
+    width: 50px;
+    border-radius: 10px;
+}
+.tel-img{
+    width: 50px;
+    border-radius: 10px;
+    justify-content: center;
+
+}
+.mail-img{
+    width: 50px;
+    border-radius: 10px;
+}
+.container-contact-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    /* height: 300px; */
+    gap: 1rem;
+  }
+
+  #footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+.logo-footer{
+    width: 80px;
+    
+}
+.developer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blanchedalmond;
+    font-size: 10px;
+    gap: 2rem;
+}
